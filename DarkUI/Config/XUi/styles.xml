@@ -1,0 +1,16 @@
+<configs>
+  <append xpath="/styles/global">
+    <style_entry name="DarkUI_Pink" value="207,2,108,255" />
+    <style_entry name="DarkUI_Pink_Trans" value="207,2,108,128" />
+    <style_entry name="DarkUI_Purple" value="150,77,146,255" />
+    <style_entry name="DarkUI_Purple_Trans" value="150,77,146,128" />
+    <style_entry name="DarkUI_Blue" value="0,54,164,255" />
+    <style_entry name="DarkUI_Blue_Trans" value="0,54,164,128" />
+    <style_entry name="DarkUI_Green" value="0,128,0,255" />
+    <style_entry name="DarkUI_Green_Trans" value="0,200,0,128" />
+    <style_entry name="DarkUI_Orange" value="98,64,10,255" />
+    <style_entry name="DarkUI_Orange_Trans" value="98,64,10,200" />
+    <style_entry name="DarkUI_Red" value="128,0,0,255" />
+    <style_entry name="DarkUI_Red_Trans" value="128,0,0,128" />
+  </append>
+</configs>
