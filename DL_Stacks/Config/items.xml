@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- First Aid Bandage -->
+    <remove xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='medicalFirstAidBandage']">
+        <property name="Stacknumber" value="10"/>
+    </append>
+    <!-- First Aid Kits -->
+    <remove xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='medicalFirstAidKit']">
+        <property name="Stacknumber" value="10"/>
+    </append>
+    <!-- Dukes Casino Tokens -->
+    <remove xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='casinoCoin']">
+        <property name="Stacknumber" value="50000"/>
+    </append>
+    <!-- *** Ammo - Set bullet stacks to 300 to make all stack sizes consistent. -->
+    <!-- 7.62 Ammo Stacks Ball/AP/HP -->
+    <remove xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammo762mmBulletBall']">
+        <property name="Stacknumber" value="300"/>
+    </append>
+    <!-- Shotgun Ammo Stacks Shell/Slug/Breach -->
+    <remove xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoShotgunShell']">
+        <property name="Stacknumber" value="300"/>
+    </append>
+    
+    <remove xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoShotgunSlug']">
+        <property name="Stacknumber" value="300"/>
+    </append>
+    
+    <remove xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoShotgunBreachingSlug']">
+        <property name="Stacknumber" value="300"/>
+    </append>
+    
+    <!-- Rocket Ammo HE/Frag -->
+    <remove xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoRocketHE']">
+        <property name="Stacknumber" value="20"/><!-- Leaving at 20 for now, it seems balanced and not sure if I want to change it yet. -->
+    </append>
+</configs>    
+<!-- *** Forge_Units 
+
+ammoArrowStone,ammoArrowExploding,ammoCrossbowBoltExploding,
+
+<item name="unit_iron">
+	<property name="Stacknumber" value="30000"/>
+</item>
+-->
+
