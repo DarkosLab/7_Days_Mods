@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
+    <!-- *** Medical_Items - Set stack sizes to 10 to match most items in the category. -->
     <!-- First Aid Bandage -->
     <remove xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']" />
     <append xpath="/items/item[@name='medicalFirstAidBandage']">
@@ -8,6 +9,21 @@
     <!-- First Aid Kits -->
     <remove xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']" />
     <append xpath="/items/item[@name='medicalFirstAidKit']">
+        <property name="Stacknumber" value="10"/>
+    </append>
+    <!-- Splints / Casts -->
+    <remove xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='medicalSplint']">
+        <property name="Stacknumber" value="10"/>
+    </append>
+    <!-- Blood Bags - Lowered to 10 to match other items -->
+    <remove xpath="/items/item[@name='medicalBloodBag']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='medicalBloodBag']">
+        <property name="Stacknumber" value="10"/>
+    </append>
+    <!-- Aloe Cream - Lowered to 10 to match other items -->
+    <remove xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='medicalAloeCream']">
         <property name="Stacknumber" value="10"/>
     </append>
     <!-- Dukes Casino Tokens -->
@@ -40,12 +56,28 @@
     <!-- Rocket Ammo HE/Frag -->
     <remove xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']" />
     <append xpath="/items/item[@name='ammoRocketHE']">
-        <property name="Stacknumber" value="20"/><!-- Leaving at 20 for now, it seems balanced and not sure if I want to change it yet. -->
+        <property name="Stacknumber" value="20"/>
+        <!-- Leaving at 20 for now, it seems balanced and not sure if I want to change it yet. -->
+    </append>
+    <!-- Explosives Ammo Stacks Arrow/Bolt -->
+    <remove xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoArrowExploding']">
+        <property name="Stacknumber" value="150"/>
+    </append>
+
+    <remove xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoCrossbowBoltExploding']">
+        <property name="Stacknumber" value="150"/>
+    </append>
+    <!-- Ammo Boxes -->
+    <remove xpath="/items/item[@name='ammoBundleMaster']/property[@name='Stacknumber']" />
+    <append xpath="/items/item[@name='ammoBundleMaster']">
+        <property name="Stacknumber" value="10"/>
     </append>
 </configs>    
 <!-- *** Forge_Units 
 
-ammoArrowStone,ammoArrowExploding,ammoCrossbowBoltExploding,
+ammoBundleMaster
 
 <item name="unit_iron">
 	<property name="Stacknumber" value="30000"/>
