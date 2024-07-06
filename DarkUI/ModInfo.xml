@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-  <Name value="DarkUI_2331" />
+  <Name value="DarkUI_2462" />
   <DisplayName value="Dark UI" />
-  <Version value="23.3.1" compat="A21" />
-  <Description value="Custom UI based off the JaWoodleUI Layout that adds some QoL stuff" />
+  <Version value="24.6.2" compat="A21" />
+  <Description value="Resize and recolor some UI elements." />
   <Author value="Brandon 'Darko' Malpass" />
   <Website value="https://github.com/DarkosLab/7_Days_Mods" />
 </xml>

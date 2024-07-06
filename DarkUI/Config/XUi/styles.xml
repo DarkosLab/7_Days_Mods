@@ -9,8 +9,10 @@
     <style_entry name="DarkUI_Green" value="0,128,0,255" />
     <style_entry name="DarkUI_Green_Trans" value="0,200,0,128" />
     <style_entry name="DarkUI_Orange" value="98,64,10,255" />
-    <style_entry name="DarkUI_Orange_Trans" value="98,64,10,200" />
+    <style_entry name="DarkUI_Orange_Trans" value="98,64,10,128" />
     <style_entry name="DarkUI_Red" value="128,0,0,255" />
     <style_entry name="DarkUI_Red_Trans" value="128,0,0,128" />
+    <style_entry name="DarkUI_Teal" value="52,226,226,255" />
+    <style_entry name="DarkUI_Teal_Trans" value="52,226,226,128" />
   </append>
 </configs>
